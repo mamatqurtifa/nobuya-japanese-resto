@@ -239,7 +239,7 @@ const DisclaimerModal = () => {
                 "Doakan saya bisa membuat restoran ini menjadi nyata dan menjadi salah satu bisnis saya di Indonesia."
               </p>
               <p className="text-sm mt-2">
-                - Mamat Qurtifaoh
+                - M. Qurtifa Wijaya
               </p>
             </motion.div>
             
