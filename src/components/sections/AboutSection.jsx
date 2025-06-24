@@ -83,13 +83,13 @@ const AboutSection = () => {
     <section id="about" className="section-padding bg-jp-cream relative overflow-hidden">
       {/* Enhanced decorative elements */}
       <div className="absolute top-0 left-0 w-32 h-32 bg-contain bg-no-repeat opacity-10" 
-           style={{ backgroundImage: "url('/src/assets/images/sakura.svg')" }}></div>
+           style={{ backgroundImage: "url('/assets/images/sakura.svg')" }}></div>
       <div className="absolute bottom-0 right-0 w-40 h-40 bg-contain bg-no-repeat opacity-10" 
-           style={{ backgroundImage: "url('/src/assets/images/bamboo.svg')" }}></div>
+           style={{ backgroundImage: "url('/assets/images/bamboo.svg')" }}></div>
       <div className="absolute top-1/4 right-12 w-24 h-24 bg-contain bg-no-repeat opacity-10" 
-           style={{ backgroundImage: "url('/src/assets/images/fan.svg')" }}></div>
+           style={{ backgroundImage: "url('/assets/images/fan.svg')" }}></div>
       <div className="absolute bottom-1/3 left-16 w-28 h-28 bg-contain bg-no-repeat opacity-10" 
-           style={{ backgroundImage: "url('/src/assets/images/wave.svg')" }}></div>
+           style={{ backgroundImage: "url('/assets/images/wave.svg')" }}></div>
       
       <div className="container-custom">
         {/* Section header */}
@@ -117,7 +117,7 @@ const AboutSection = () => {
             <div className="relative max-w-md mx-auto">
               <div className="aspect-[3/4] rounded-lg shadow-lg overflow-hidden">
                 <img 
-                  src="/src/assets/images/about-chef.png" 
+                  src="/assets/images/about-chef.png" 
                   alt="Nobuya Chef Preparing Sushi" 
                   className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
                 />
@@ -184,7 +184,7 @@ const AboutSection = () => {
             {/* Chef information with animated border */}
             <div className="flex gap-4 items-center p-4 border-l-2 border-warm-gold/50 relative before:absolute before:top-0 before:left-0 before:w-0 before:h-full before:bg-warm-gold/10 hover:before:w-full before:transition-all before:duration-700">
               <img 
-                src="/src/assets/images/chef-signature.svg" 
+                src="/assets/images/chef-signature.svg" 
                 alt="Chef Signature" 
                 className="h-16 w-auto"
               />
@@ -227,23 +227,25 @@ const AboutSection = () => {
                   animate={{ height: 'auto', opacity: 1 }}
                   exit={{ height: 0, opacity: 0 }}
                   transition={{ duration: 0.3 }}
-                  className="overflow-hidden mt-6 space-y-4 pt-4 border-t border-gray-100"
+                  className="overflow-hidden"
                 >
-                  {awards.map((award, index) => (
-                    <motion.div 
-                      key={index}
-                      variants={itemVariants}
-                      className="flex gap-4"
-                    >
-                      <div className="bg-jp-cream rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0">
-                        <span className="font-bold text-warm-gold">{award.year}</span>
-                      </div>
-                      <div>
-                        <h4 className="font-heading text-lg">{award.title}</h4>
-                        <p className="text-gray-600 text-sm">{award.organization}</p>
-                      </div>
-                    </motion.div>
-                  ))}
+                  <div className="mt-6 space-y-4 pt-4 border-t border-gray-100">
+                    {awards.map((award, index) => (
+                      <motion.div 
+                        key={index}
+                        variants={itemVariants}
+                        className="flex gap-4"
+                      >
+                        <div className="bg-jp-cream rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0">
+                          <span className="font-bold text-warm-gold">{award.year}</span>
+                        </div>
+                        <div>
+                          <h4 className="font-heading text-lg">{award.title}</h4>
+                          <p className="text-gray-600 text-sm">{award.organization}</p>
+                        </div>
+                      </motion.div>
+                    ))}
+                  </div>
                 </motion.div>
               )}
             </AnimatePresence>
@@ -278,14 +280,14 @@ const AboutSection = () => {
                   animate={{ height: 'auto', opacity: 1 }}
                   exit={{ height: 0, opacity: 0 }}
                   transition={{ duration: 0.3 }}
-                  className="overflow-hidden mt-6 space-y-8 pt-4 border-t border-gray-100 relative"
+                  className="overflow-hidden"
                 >
-                  <div className="relative before:absolute before:left-6 before:top-4 before:h-[calc(100%-2rem)] before:w-0.5 before:bg-jp-cream">
+                  <div className="mt-6 space-y-8 pt-4 border-t border-gray-100 relative before:absolute before:left-6 before:top-4 before:h-full before:w-0.5 before:bg-jp-cream">
                     {timeline.map((event, index) => (
                       <motion.div 
                         key={index}
                         variants={itemVariants}
-                        className="flex gap-4 relative mb-8 last:mb-0"
+                        className="flex gap-4 relative"
                       >
                         <div className="bg-warm-gold rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0 z-10">
                           <span className="font-bold text-white">{event.year}</span>
