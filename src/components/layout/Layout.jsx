@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import Header from './Header';
 import HeaderPage from './HeaderPage';
@@ -6,19 +6,22 @@ import Footer from './Footer';
 
 const Layout = ({ children }) => {
   const location = useLocation();
+  const [currentPath, setCurrentPath] = useState(location.pathname);
   
-  // Scroll to top on route change
+  // Update path state when location changes
   useEffect(() => {
-    window.scrollTo(0, 0);
+    setCurrentPath(location.pathname);
   }, [location.pathname]);
   
-  // Determine which header to show based on the current path
-  const isHomePage = location.pathname === '/';
+  // Determine which header to show
+  const isHomePage = currentPath === '/' || currentPath === '';
   
   return (
     <div className="flex flex-col min-h-screen">
       {isHomePage ? <Header /> : <HeaderPage />}
-      <main className="flex-grow">{children}</main>
+      <main className="flex-grow">
+        {children}
+      </main>
       <Footer />
     </div>
   );
