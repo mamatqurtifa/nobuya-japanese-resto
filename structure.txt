@@ -1,0 +1,44 @@
+nobuya-resto/
+├── public/
+│   ├── favicon.ico
+│   └── ...
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   │   ├── hero-bg.png
+│   │   │   ├── about-chef.png
+│   │   │   ├── logo.png
+│   │   │   └── ...
+│   │   ├── icons/
+│   │   │   ├── chopsticks.svg
+│   │   │   ├── bamboo.svg
+│   │   │   └── ...
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── Header.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   └── Layout.jsx
+│   │   ├── sections/
+│   │   │   ├── HeroSection.jsx
+│   │   │   ├── AboutSection.jsx
+│   │   │   ├── MenuSection.jsx
+│   │   │   ├── GallerySection.jsx
+│   │   │   ├── ReservationSection.jsx
+│   │   │   └── TestimonialSection.jsx
+│   │   ├── ui/
+│   │   │   ├── Button.jsx
+│   │   │   ├── MenuCard.jsx
+│   │   │   ├── TestimonialCard.jsx
+│   │   │   └── ...
+│   ├── pages/
+│   │   ├── HomePage.jsx
+│   │   ├── MenuPage.jsx
+│   │   ├── GalleryPage.jsx
+│   │   └── ...
+│   ├── data/
+│   │   ├── menuData.js
+│   │   └── testimonialData.js
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+└── ...

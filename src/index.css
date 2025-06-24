@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply font-body text-ink-black bg-pure-white;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-6 py-3 transition duration-300 rounded-md;
+  }
+  
+  .btn-primary {
+    @apply bg-warm-gold text-pure-white hover:bg-opacity-90;
+  }
+  
+  .btn-outline {
+    @apply border border-warm-gold text-warm-gold hover:bg-warm-gold hover:text-pure-white;
+  }
+  
+  .container-custom {
+    @apply container mx-auto px-4 md:px-6 lg:px-8;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+  
+  .menu-item {
+    @apply border-b border-jp-cream pb-4 mb-4 last:border-b-0 last:mb-0 last:pb-0;
+  }
+  
+  .nav-link {
+    @apply relative text-ink-black hover:text-warm-gold transition-colors duration-300;
+  }
+  
+  .nav-link::after {
+    @apply content-[''] absolute w-0 h-0.5 bg-warm-gold bottom-0 left-0 transition-all duration-300;
+  }
+  
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+}
