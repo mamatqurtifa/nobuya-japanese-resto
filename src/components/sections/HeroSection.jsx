@@ -5,7 +5,7 @@ import { IoChevronDownOutline, IoRestaurantOutline, IoCalendarOutline } from 're
 
 const HeroSection = () => {
   return (
-    <section className="relative h-screen flex items-center bg-cover bg-center overflow-hidden" style={{ backgroundImage: "url('/src/assets/images/hero-bg.png')" }}>
+    <section className="relative h-screen flex items-center bg-cover bg-center overflow-hidden" style={{ backgroundImage: "url('/assets/images/hero-bg.png')" }}>
       {/* Overlay with gradient for better text readability */}
       <div className="absolute inset-0 bg-gradient-to-t from-ink-black/80 via-ink-black/40 to-ink-black/20"></div>
 

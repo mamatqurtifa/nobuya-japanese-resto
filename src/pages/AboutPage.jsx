@@ -64,11 +64,11 @@ const AboutPage = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <img
-              src="/src/assets/images/restaurant-exterior.png"
+              src="/assets/images/restaurant-exterior.png"
               alt="Nobuya Resto Exterior"
               className="w-full h-auto rounded-lg shadow-xl"
               onError={(e) => {
-                e.target.src = "/src/assets/images/restaurant-exterior.png";
+                e.target.src = "/assets/images/restaurant-exterior.png";
               }}
             />
           </motion.div>
@@ -164,11 +164,11 @@ const AboutPage = () => {
             <div className="bg-pure-white rounded-lg overflow-hidden shadow-md">
               <div className="aspect-[3/4] overflow-hidden">
                 <img
-                  src="/src/assets/images/about-chef.png"
+                  src="/assets/images/about-chef.png"
                   alt="Chef Hiroto Kazuki"
                   className="w-full h-full object-cover object-center"
                   onError={(e) => {
-                    e.target.src = "/src/assets/images/placeholder-person.jpg";
+                    e.target.src = "/assets/images/placeholder-person.jpg";
                   }}
                 />
               </div>
@@ -190,11 +190,11 @@ const AboutPage = () => {
             <div className="bg-pure-white rounded-lg overflow-hidden shadow-md">
               <div className="aspect-[3/4] overflow-hidden">
                 <img
-                  src="/src/assets/images/team/naomi.ppg"
+                  src="/assets/images/team/naomi.ppg"
                   alt="Naomi Tanaka"
                   className="w-full h-full object-cover object-center"
                   onError={(e) => {
-                    e.target.src = "/src/assets/images/naomi.png";
+                    e.target.src = "/assets/images/naomi.png";
                   }}
                 />
               </div>
@@ -214,11 +214,11 @@ const AboutPage = () => {
             <div className="bg-pure-white rounded-lg overflow-hidden shadow-md">
               <div className="aspect-[3/4] overflow-hidden">
                 <img
-                  src="/src/assets/images/team/kenji.png"
+                  src="/assets/images/team/kenji.png"
                   alt="Kenji Yamamoto"
                   className="w-full h-full object-cover object-center"
                   onError={(e) => {
-                    e.target.src = "/src/assets/images/kenji.png";
+                    e.target.src = "/assets/images/kenji.png";
                   }}
                 />
               </div>

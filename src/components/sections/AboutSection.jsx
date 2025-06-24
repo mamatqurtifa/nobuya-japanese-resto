@@ -83,13 +83,13 @@ const AboutSection = () => {
     <section id="about" className="section-padding bg-jp-cream relative overflow-hidden">
       {/* Enhanced decorative elements */}
       <div className="absolute top-0 left-0 w-32 h-32 bg-contain bg-no-repeat opacity-10" 
-           style={{ backgroundImage: "url('/src/assets/images/sakura.svg')" }}></div>
+           style={{ backgroundImage: "url('/assets/images/sakura.svg')" }}></div>
       <div className="absolute bottom-0 right-0 w-40 h-40 bg-contain bg-no-repeat opacity-10" 
-           style={{ backgroundImage: "url('/src/assets/images/bamboo.svg')" }}></div>
+           style={{ backgroundImage: "url('/assets/images/bamboo.svg')" }}></div>
       <div className="absolute top-1/4 right-12 w-24 h-24 bg-contain bg-no-repeat opacity-10" 
-           style={{ backgroundImage: "url('/src/assets/images/fan.svg')" }}></div>
+           style={{ backgroundImage: "url('/assets/images/fan.svg')" }}></div>
       <div className="absolute bottom-1/3 left-16 w-28 h-28 bg-contain bg-no-repeat opacity-10" 
-           style={{ backgroundImage: "url('/src/assets/images/wave.svg')" }}></div>
+           style={{ backgroundImage: "url('/assets/images/wave.svg')" }}></div>
       
       <div className="container-custom">
         {/* Section header */}
@@ -117,7 +117,7 @@ const AboutSection = () => {
             <div className="relative max-w-md mx-auto">
               <div className="aspect-[3/4] rounded-lg shadow-lg overflow-hidden">
                 <img 
-                  src="/src/assets/images/about-chef.png" 
+                  src="/assets/images/about-chef.png" 
                   alt="Nobuya Chef Preparing Sushi" 
                   className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
                 />
@@ -184,7 +184,7 @@ const AboutSection = () => {
             {/* Chef information with animated border */}
             <div className="flex gap-4 items-center p-4 border-l-2 border-warm-gold/50 relative before:absolute before:top-0 before:left-0 before:w-0 before:h-full before:bg-warm-gold/10 hover:before:w-full before:transition-all before:duration-700">
               <img 
-                src="/src/assets/images/chef-signature.svg" 
+                src="/assets/images/chef-signature.svg" 
                 alt="Chef Signature" 
                 className="h-16 w-auto"
               />

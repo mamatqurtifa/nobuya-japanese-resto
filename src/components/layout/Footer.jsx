@@ -87,7 +87,7 @@ const Footer = () => {
           <div>
             <Link to="/" className="inline-block mb-4">
               <img 
-                src="/src/assets/images/logo.png" 
+                src="/assets/images/logo.png" 
                 alt="Nobuya Resto Logo" 
                 className="h-16"
               />

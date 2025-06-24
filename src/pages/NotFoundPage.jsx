@@ -42,7 +42,7 @@ const NotFoundPage = () => {
           </motion.div>
           
           <motion.img 
-            src="/src/assets/images/404-illustration.png" 
+            src="/assets/images/404-illustration.png" 
             alt="404 Illustration" 
             className="mt-12 max-w-sm w-full"
             initial={{ opacity: 0, scale: 0.8 }}

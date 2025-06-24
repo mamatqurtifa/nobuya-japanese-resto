@@ -49,7 +49,7 @@ const HeaderPage = () => {
       >
         <Link to="/" className="flex items-center">
           <img 
-            src="/src/assets/images/logo.png" 
+            src="/assets/images/logo.png" 
             alt="Nobuya Resto Logo" 
             className="h-12 md:h-16"
           />

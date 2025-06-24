@@ -19,8 +19,8 @@ export default {
         'menu': ['Raleway', 'Lora', 'sans-serif'],
       },
       backgroundImage: {
-        'hero-pattern': "url('/src/assets/images/hero-bg.png')",
-        'bamboo-pattern': "url('/src/assets/images/bamboo-bg.svg')",
+        'hero-pattern': "url('/assets/images/hero-bg.png')",
+        'bamboo-pattern': "url('/assets/images/bamboo-bg.svg')",
       },
       animation: {
         'fade-in': 'fadeIn 0.4s ease-in-out',

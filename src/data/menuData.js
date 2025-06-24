@@ -11,7 +11,7 @@ const menuData = {
           description: '6 potong sushi aburi dengan wagyu, salmon, dan engawa.',
           price: 98000,
           isSignature: true,
-          imageUrl: '/src/assets/images/hana-aburi.png'
+          imageUrl: '/assets/images/hana-aburi.png'
         },
         {
           id: 'salmon-sashimi',
@@ -19,7 +19,7 @@ const menuData = {
           description: 'Irisan salmon segar dengan wasabi dan shoyu.',
           price: 65000,
           isSignature: false,
-          imageUrl: '/src/assets/images/salmon-sashimi.png'
+          imageUrl: '/assets/images/salmon-sashimi.png'
         },
         {
           id: 'tuna-sashimi',
@@ -27,7 +27,7 @@ const menuData = {
           description: 'Daging tuna pilihan, tekstur lembut dan segar.',
           price: 68000,
           isSignature: false,
-          imageUrl: '/src/assets/images/tuna-sashimi.png'
+          imageUrl: '/assets/images/tuna-sashimi.png'
         },
         {
           id: 'nobuya-maki',
@@ -35,7 +35,7 @@ const menuData = {
           description: 'Sushi roll isi tamago, salmon, dan alpukat, dilapisi tobiko.',
           price: 78000,
           isSignature: false,
-          imageUrl: '/src/assets/images/nobuya-maki.png'
+          imageUrl: '/assets/images/nobuya-maki.png'
         },
         {
           id: 'ebi-tempura-roll',
@@ -43,7 +43,7 @@ const menuData = {
           description: 'Sushi gulung dengan udang tempura dan saus unagi.',
           price: 72000,
           isSignature: false,
-          imageUrl: '/src/assets/images/ebi-tempura-roll.png'
+          imageUrl: '/assets/images/ebi-tempura-roll.png'
         }
       ]
     },
@@ -58,7 +58,7 @@ const menuData = {
           description: 'Donburi wagyu dan saus truffle khas Nobuya.',
           price: 120000,
           isSignature: true,
-          imageUrl: '/src/assets/images/gyu-truffle.png'
+          imageUrl: '/assets/images/gyu-truffle.png'
         },
         {
           id: 'chicken-teriyaki',
@@ -66,7 +66,7 @@ const menuData = {
           description: 'Ayam teriyaki dengan nasi, telur, dan nori.',
           price: 75000,
           isSignature: false,
-          imageUrl: '/src/assets/images/chicken-teriyaki.png'
+          imageUrl: '/assets/images/chicken-teriyaki.png'
         },
         {
           id: 'miso-karaage',
@@ -74,7 +74,7 @@ const menuData = {
           description: 'Bento dengan ayam goreng miso, nasi, salad, dan acar.',
           price: 85000,
           isSignature: true,
-          imageUrl: '/src/assets/images/miso-karaage.png'
+          imageUrl: '/assets/images/miso-karaage.png'
         },
         {
           id: 'salmon-teriyaki',
@@ -82,7 +82,7 @@ const menuData = {
           description: 'Salmon panggang saus teriyaki, disajikan dalam bento box lengkap.',
           price: 98000,
           isSignature: false,
-          imageUrl: '/src/assets/images/salmon-teriyaki.png'
+          imageUrl: '/assets/images/salmon-teriyaki.png'
         },
         {
           id: 'unagi-don',
@@ -90,7 +90,7 @@ const menuData = {
           description: 'Nasi Jepang dengan belut panggang dan saus manis gurih.',
           price: 145000,
           isSignature: false,
-          imageUrl: '/src/assets/images/unagi-don.png'
+          imageUrl: '/assets/images/unagi-don.png'
         }
       ]
     },
@@ -105,7 +105,7 @@ const menuData = {
           description: 'Udon kuah dashi dengan ebi tempura dan daun bawang.',
           price: 88000,
           isSignature: true,
-          imageUrl: '/src/assets/images/tempura-udon.png'
+          imageUrl: '/assets/images/tempura-udon.png'
         },
         {
           id: 'tori-ramen',
@@ -113,7 +113,7 @@ const menuData = {
           description: 'Ramen kuah soy, ayam panggang, telur ajitsuke, dan menma.',
           price: 80000,
           isSignature: false,
-          imageUrl: '/src/assets/images/tori-ramen.png'
+          imageUrl: '/assets/images/tori-ramen.png'
         },
         {
           id: 'spicy-miso',
@@ -121,7 +121,7 @@ const menuData = {
           description: 'Ramen kuah miso pedas dengan topping chashu dan corn.',
           price: 85000,
           isSignature: false,
-          imageUrl: '/src/assets/images/spicy-miso.png'
+          imageUrl: '/assets/images/spicy-miso.png'
         },
         {
           id: 'kitsune-udon',
@@ -129,7 +129,7 @@ const menuData = {
           description: 'Udon kuah ringan dengan tahu goreng manis (aburaage).',
           price: 72000,
           isSignature: false,
-          imageUrl: '/src/assets/images/kitsune-udon.png'
+          imageUrl: '/assets/images/kitsune-udon.png'
         }
       ]
     },
@@ -144,7 +144,7 @@ const menuData = {
           description: 'Kacang edamame ditumis dengan mentega dan bawang putih.',
           price: 28000,
           isSignature: false,
-          imageUrl: '/src/assets/images/edamame.png'
+          imageUrl: '/assets/images/edamame.png'
         },
         {
           id: 'takoyaki',
@@ -152,7 +152,7 @@ const menuData = {
           description: 'Bola gurita Jepang, topping katsuobushi & saus mayo.',
           price: 42000,
           isSignature: false,
-          imageUrl: '/src/assets/images/takoyaki.png'
+          imageUrl: '/assets/images/takoyaki.png'
         },
         {
           id: 'agedashi-tofu',
@@ -160,7 +160,7 @@ const menuData = {
           description: 'Tahu lembut digoreng, disajikan dengan saus tentsuyu.',
           price: 36000,
           isSignature: false,
-          imageUrl: '/src/assets/images/agedashi-tofu.png'
+          imageUrl: '/assets/images/agedashi-tofu.png'
         },
         {
           id: 'wakame-salad',
@@ -168,7 +168,7 @@ const menuData = {
           description: 'Salad rumput laut dengan dressing wijen.',
           price: 30000,
           isSignature: false,
-          imageUrl: '/src/assets/images/wakame-salad.png'
+          imageUrl: '/assets/images/wakame-salad.png'
         },
         {
           id: 'gyoza',
@@ -176,7 +176,7 @@ const menuData = {
           description: 'Dumpling goreng isi ayam/pork, disajikan dengan saus tare.',
           price: 48000,
           isSignature: false,
-          imageUrl: '/src/assets/images/gyoza.png'
+          imageUrl: '/assets/images/gyoza.png'
         }
       ]
     },
@@ -191,7 +191,7 @@ const menuData = {
           description: 'Cheesecake matcha dengan topping kacang merah & kinako.',
           price: 42000,
           isSignature: true,
-          imageUrl: '/src/assets/images/matcha-cheesecake.png'
+          imageUrl: '/assets/images/matcha-cheesecake.png'
         },
         {
           id: 'dorayaki-ice',
@@ -199,7 +199,7 @@ const menuData = {
           description: 'Pancake Jepang isi es krim vanila dan pasta kacang merah.',
           price: 38000,
           isSignature: false,
-          imageUrl: '/src/assets/images/dorayaki-ice.png'
+          imageUrl: '/assets/images/dorayaki-ice.png'
         },
         {
           id: 'mochi-ice',
@@ -207,7 +207,7 @@ const menuData = {
           description: 'Pilihan rasa matcha, vanila, atau mangga.',
           price: 28000,
           isSignature: false,
-          imageUrl: '/src/assets/images/mochi-ice.png'
+          imageUrl: '/assets/images/mochi-ice.png'
         },
         {
           id: 'kurogoma-ice',
@@ -215,7 +215,7 @@ const menuData = {
           description: 'Es krim wijen hitam Jepang, rasa nutty dan creamy.',
           price: 35000,
           isSignature: true,
-          imageUrl: '/src/assets/images/kurogoma-ice.png'
+          imageUrl: '/assets/images/kurogoma-ice.png'
         }
       ]
     },
@@ -230,7 +230,7 @@ const menuData = {
           description: 'Campuran yuzu soda dan daun shiso segar.',
           price: 38000,
           isSignature: true,
-          imageUrl: '/src/assets/images/signature-mocktail.png'
+          imageUrl: '/assets/images/signature-mocktail.png'
         },
         {
           id: 'ocha',
@@ -238,7 +238,7 @@ const menuData = {
           description: 'Teh hijau panas atau dingin, refill sepuasnya.',
           price: 20000,
           isSignature: false,
-          imageUrl: '/src/assets/images/ocha.png'
+          imageUrl: '/assets/images/ocha.png'
         },
         {
           id: 'yuzu-lemon',
@@ -246,7 +246,7 @@ const menuData = {
           description: 'Lemon soda Jepang dengan ekstrak yuzu asli.',
           price: 30000,
           isSignature: false,
-          imageUrl: '/src/assets/images/yuzu-lemon.png'
+          imageUrl: '/assets/images/yuzu-lemon.png'
         },
         {
           id: 'matcha-latte',
@@ -254,7 +254,7 @@ const menuData = {
           description: 'Susu dengan bubuk matcha premium, creamy dan lembut.',
           price: 32000,
           isSignature: false,
-          imageUrl: '/src/assets/images/matcha-latte.png'
+          imageUrl: '/assets/images/matcha-latte.png'
         },
         {
           id: 'sakura-fizz',
@@ -262,7 +262,7 @@ const menuData = {
           description: 'Minuman soda pink dari sirup sakura Jepang, lemon, dan kelopak bunga asli sebagai garnish.',
           price: 38000,
           isSignature: true,
-          imageUrl: '/src/assets/images/sakura-fizz.png'
+          imageUrl: '/assets/images/sakura-fizz.png'
         },
         {
           id: 'mineral-water',
@@ -270,7 +270,7 @@ const menuData = {
           description: 'Air mineral.',
           price: 12000,
           isSignature: false,
-          imageUrl: '/src/assets/images/mineral-water.png'
+          imageUrl: '/assets/images/mineral-water.png'
         }
       ]
     },
@@ -285,7 +285,7 @@ const menuData = {
           description: 'Campuran sate ayam ala Jepang: negima, tsukune, dan tare-glazed chicken wing.',
           price: 65000,
           isSignature: true,
-          imageUrl: '/src/assets/images/yakitori.png'
+          imageUrl: '/assets/images/yakitori.png'
         },
         {
           id: 'salmon-mentai',
@@ -293,7 +293,7 @@ const menuData = {
           description: 'Salmon panggang dengan saus mentai lembut dan topping tobiko.',
           price: 98000,
           isSignature: false,
-          imageUrl: '/src/assets/images/salmon-mentai.png'
+          imageUrl: '/assets/images/salmon-mentai.png'
         },
         {
           id: 'shishamo',
@@ -301,7 +301,7 @@ const menuData = {
           description: 'Ikan shishamo panggang utuh, garing di luar dan creamy di dalam.',
           price: 45000,
           isSignature: false,
-          imageUrl: '/src/assets/images/shishamo.png'
+          imageUrl: '/assets/images/shishamo.png'
         }
       ]
     },
@@ -316,7 +316,7 @@ const menuData = {
           description: 'Daging wagyu A5 disajikan mentah untuk dipanggang sendiri di atas batu panas, dengan saus ponzu dan garam Himalaya.',
           price: 185000,
           isSignature: true,
-          imageUrl: '/src/assets/images/wagyu-ishiyaki.png'
+          imageUrl: '/assets/images/wagyu-ishiyaki.png'
         },
         {
           id: 'wagyu-sushi',
@@ -324,7 +324,7 @@ const menuData = {
           description: 'Nigiri sushi dengan irisan wagyu, dibakar seketika dan ditaburi garam laut.',
           price: 55000,
           isSignature: false,
-          imageUrl: '/src/assets/images/wagyu-sushi.png'
+          imageUrl: '/assets/images/wagyu-sushi.png'
         }
       ]
     },
@@ -339,7 +339,7 @@ const menuData = {
           description: 'Donburi isi sayur panggang (zucchini, paprika, jamur), tofu, dan saus wijen Jepang.',
           price: 62000,
           isSignature: false,
-          imageUrl: '/src/assets/images/vegan-don.png'
+          imageUrl: '/assets/images/vegan-don.png'
         },
         {
           id: 'cold-soba',
@@ -347,7 +347,7 @@ const menuData = {
           description: 'Mie soba dingin disajikan dengan kuah tsuyu, rumput laut, dan lobak parut.',
           price: 58000,
           isSignature: false,
-          imageUrl: '/src/assets/images/cold-soba.png'
+          imageUrl: '/assets/images/cold-soba.png'
         }
       ]
     }

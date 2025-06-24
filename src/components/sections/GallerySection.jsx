@@ -5,37 +5,37 @@ import { motion } from 'framer-motion';
 const galleryImages = [
   {
     id: 1,
-    src: '/src/assets/images/gallery/interior-1.png',
+    src: '/assets/images/gallery/interior-1.png',
     alt: 'Nobuya Restaurant Interior',
     category: 'interior'
   },
   {
     id: 2,
-    src: '/src/assets/images/gallery/food-1.png',
+    src: '/assets/images/gallery/food-1.png',
     alt: 'Sushi Platter',
     category: 'food'
   },
   {
     id: 3,
-    src: '/src/assets/images/gallery/experience-1.png',
+    src: '/assets/images/gallery/experience-1.png',
     alt: 'Chef preparing sushi',
     category: 'experience'
   },
   {
     id: 4,
-    src: '/src/assets/images/gallery/interior-2.png',
+    src: '/assets/images/gallery/interior-2.png',
     alt: 'Private Dining Room',
     category: 'interior'
   },
   {
     id: 5,
-    src: '/src/assets/images/gallery/food-2.png',
+    src: '/assets/images/gallery/food-2.png',
     alt: 'Signature Ramen',
     category: 'food'
   },
   {
     id: 6,
-    src: '/src/assets/images/gallery/experience-2.png',
+    src: '/assets/images/gallery/experience-2.png',
     alt: 'Traditional Tea Ceremony',
     category: 'experience'
   }

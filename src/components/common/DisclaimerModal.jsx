@@ -366,7 +366,7 @@ const DisclaimerModal = () => {
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                 <a 
-                  href="https://github.com/mamatqurtifaoh" 
+                  href="https://github.com/mamatqurtifa" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 p-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors group"
@@ -382,7 +382,7 @@ const DisclaimerModal = () => {
                 </a>
                 
                 <a 
-                  href="https://linkedin.com/in/mamatqurtifaoh" 
+                  href="https://linkedin.com/in/mamatqurtifa" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 p-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors group"

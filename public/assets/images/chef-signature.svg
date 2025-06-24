@@ -1,0 +1,12 @@
+<svg width="300" height="100" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .signature {
+      font-family: 'Brush Script MT', cursive;
+      font-size: 36px;
+      fill: #1C1C1C;
+    }
+  </style>
+
+  <!-- Tanda tangan -->
+  <text x="10" y="60" class="signature">Hiroto Kazuki</text>
+</svg>
